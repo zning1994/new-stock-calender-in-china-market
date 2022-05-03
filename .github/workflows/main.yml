@@ -3,6 +3,9 @@ name: 'new-stock-calender-in-china-market'
 on:
   schedule:
     - cron: '26,56 * * * *'
+  push:
+    branches:
+      - main
 
 jobs:
   build:
