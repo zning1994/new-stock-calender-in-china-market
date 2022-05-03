@@ -22,6 +22,7 @@ jobs:
       uses: actions/checkout@main
       with:
         repository: zning1994/new-stock-calender-scripts
+        branch: main
         token: ${{ secrets.GITHUB_TOKEN }}
         path: scripts
     
