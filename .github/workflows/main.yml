@@ -23,7 +23,7 @@ jobs:
       with:
         repository: zning1994/new-stock-calender-scripts
         branch: main
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.PRIVATE_TOEKEN }}
         path: scripts
     
     - name: Install Python latest
