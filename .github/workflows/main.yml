@@ -22,6 +22,7 @@ jobs:
       uses: actions/checkout@main
       with:
         repository: zning1994/new-stock-calender-scripts
+        token: ${{ secrets.GITHUB_TOKEN }}
         path: scripts
     
     - name: Install Python latest
@@ -51,4 +52,5 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: main
