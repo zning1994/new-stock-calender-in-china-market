@@ -24,6 +24,10 @@ API访问：<https://newstock.techina.science/data>
 
 ![](./static/images/WX20220503-145941@2x.png)
 
+## 数据获取脚本
+
+本仓库数据获取脚本为私有库，如需要访问可以联系。
+
 ## 协议
 
 本仓库遵循MIT协议。
